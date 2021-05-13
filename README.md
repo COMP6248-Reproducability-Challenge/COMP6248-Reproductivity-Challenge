@@ -25,12 +25,12 @@ The code should be run on MacOS or Ubuntu. Colab is also OK except for Windows s
 
 
 ## Format
-* Each >JSON file contains one example per line. With the exception of >RCV1, each example has keys >text and >label. >text is a list of input tokens and >label is an integer, ranging from 0 to the number of classes - 1.
-* For >RCV1, we are unable to distribute the original data. In place of input tokens, each example specifies a >path, which corresponds to each example's file path in the data distribution.
-* Class splits for each dataset may be found in >src/dataset/loader.py.
+* Each > JSON file contains one example per line. With the exception of > RCV1, each example has keys > text and > label. > text is a list of input tokens and > label is an integer, ranging from 0 to the number of classes - 1.
+* For > RCV1, we are unable to distribute the original data. In place of input tokens, each example specifies a > path, which corresponds to each example's file path in the data distribution.
+* Class splits for each dataset may be found in > src/dataset/loader.py.
 
 ## Quickstart
-Run our model with default settings. By default we load data from >data/.
+Run our model with default settings. By default we load data from > data/.
 
 > ./bin/our.sh
 
