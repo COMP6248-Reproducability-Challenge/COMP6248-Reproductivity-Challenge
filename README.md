@@ -1,6 +1,5 @@
-# COMP6248-Reproductivity-Challenge
-
 # REPRODUCTIVITY CHALLENGE FEW-SHOT TEXT CLASSIFICATION WITH DIS-TRIBUTIONAL SIGNATURES(ICLR 2020)
+# COMP6248-Reproductivity-Challenge
 (20-21 Semester 2 COMP6248 Deep Learning Reproductivity Challenge)
 
 Original Paper: https://openreview.net/forum?id=H1emfT4twB
