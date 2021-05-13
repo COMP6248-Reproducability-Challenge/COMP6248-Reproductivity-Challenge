@@ -5,10 +5,7 @@ REPRODUCTIVITYCHALLENGEFEW-SHOT TEXT CLASSIFICATION WITH DIS-TRIBUTIONAL SIGNATU
 
 Group Eplison
 
-Bohao Yang
-
-Ruixiao Zhang
-
-Runwei Guan
-
+Bohao Yang\\
+Ruixiao Zhang\\
+Runwei Guan\\
 Yan Zhang
