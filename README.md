@@ -27,7 +27,7 @@ The code should be run on MacOS or Ubuntu. Colab is also OK except for Windows s
 ## Format
 * Each <font color="#000066">Json</font> file contains one example per line. With the exception of <font color="#000066">RCV1</font>, each example has keys <font color="#000066">text</font> and <font color="#000066">label</font>. <font color="#000066">text</font> is a list of input tokens and <font color="#000066">label</font> is an integer, ranging from 0 to the number of classes - 1.
 * For <font color="#000066">RCV1</font>, we are unable to distribute the original data. In place of input tokens, each example specifies a <font color="#000066">path</font>, which corresponds to each example's file path in the data distribution.
-* Class splits for each dataset may be found in > src/dataset/loader.py.
+* Class splits for each dataset may be found in src/dataset/loader.py.
 
 ## Quickstart
 Run our model with default settings. By default we load data from > data/.
