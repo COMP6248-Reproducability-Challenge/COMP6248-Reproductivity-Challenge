@@ -2,9 +2,44 @@
 
 # REPRODUCTIVITY CHALLENGE FEW-SHOT TEXT CLASSIFICATION WITH DIS-TRIBUTIONAL SIGNATURES(ICLR 2020)
 
+(20-21 Semester 2 COMP6248 Deep Learning Reproductivity Challenge)
+
 Original Paper: https://openreview.net/forum?id=H1emfT4twB
 
-(20-21 Semester 2 COMP6248 Deep Learning Reproductivity Challenge)
+## Dependency Version(based on Anaconda)
+
+*Python 3.7
+*PyTorch 1.1.0
+*numpy 1.15.4
+*torchtext 0.4.0
+*pytorch-transformers 1.1.0
+*termcolor 1.1.0
+*tqdm 4.32.2
+
+## Data
+
+We run the code on 6 data sets, which can be downloaded in [datasets link](https://people.csail.mit.edu/yujia/files/distributional-signatures/data.zip)
+
+
+## Environment Requirement 
+The code should be run on MacOS or Ubuntu. Colab is also OK except for Windows system.
+
+
+## Format
+*Each JSON file contains one example per line. With the exception of RCV1, each example has keys text and label. text is a list of input tokens and label is an integer, ranging from 0 to the number of classes - 1.
+*For RCV1, we are unable to distribute the original data. In place of input tokens, each example specifies a path, which corresponds to each example's file path in the data distribution.
+*Class splits for each dataset may be found in src/dataset/loader.py.
+
+## Quickstart
+Run our model with default settings. By default we load data from data/.
+
+> ./bin/our.sh
+
+Scripts for other baselines may be found under bin/.
+
+
+
+
 
 ## Group Eplison members:
 
