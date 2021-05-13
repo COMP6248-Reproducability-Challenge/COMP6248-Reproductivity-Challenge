@@ -30,7 +30,7 @@ The code should be run on MacOS or Ubuntu. Colab is also OK except for Windows s
 * Class splits for each dataset may be found in src/dataset/loader.py.
 
 ## Quickstart
-Run our model with default settings. By default we load data from > data/.
+Run our model with default settings. By default we load data from data/.
 
 > ./bin/our.sh
 
